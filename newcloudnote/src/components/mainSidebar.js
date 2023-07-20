@@ -49,10 +49,7 @@ export default function MainSidebar(){
                     <img src="/images/anonimous.svg"></img>
                     <span >Anonymous</span>
                 </div>
-                <div className="anonimos">
-                    <img src="/images/anonimous.svg"></img>
-                    <span >Anonymous</span>
-                </div>
+              
             </div>
         </>
     )

@@ -1,0 +1,167 @@
+.content-cloud{
+    margin-left: 356px;
+    
+    .hover-opacity {
+        opacity: 1;
+        transition: opacity 0.3s ease;
+        width: 100%;
+      }
+      
+      .hover-opacity:hover {
+        opacity: 0.9; /* Điều chỉnh giá trị opacity để thay đổi độ mờ */
+      }
+      .text{
+        display: flex;
+        position: relative;
+        top:-592px;
+        left: 731px;
+        gap: 50px;
+        .text-welcome{
+          color: #fff;
+          h3{
+            font-size: 48px;
+            font-weight:600;
+          }
+          p{
+            font-size: 28px;
+         
+            font-weight: 300;
+          }
+        }
+       
+        
+      }
+      .note{
+        display: flex;
+        position: relative;
+        top:-264px;
+        margin-left: 15px;
+        .left-note{
+          .top-note{
+            width: 884px;
+            height: 100px;
+            background-color: #fff;
+            border-radius: 12px;
+            .text-header{
+              padding-left: 20px;
+              // padding-top: 12px;
+              label{
+                font-size: 25px;
+                font-weight: bold;
+              
+                color: #888888;
+              }
+              img{
+                margin-left: 727px;
+                margin-top: 15px;
+              }
+            }
+            .hover-link:hover{
+              cursor: pointer;
+              color: #496EF1;
+            }
+            .hover-link{
+              color: #888888;
+              text-decoration: none;
+              margin-right: 15px;
+              position: relative;
+              // display: block;
+        
+            }
+            .active{
+             color: #496EF1;
+              margin-left: 20px;
+            }
+            .hover-link::after{
+              content: "";
+              height: 2px;
+              width: 100%;
+              background-color: #496EF1;
+              position: absolute;
+              bottom: 0;
+              left: 0;
+             transform: scaleX(0);
+             transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+            }
+            .hover-link:hover::after{
+              transform: scaleX(1);
+            }
+            
+          }
+          .main-note{
+            margin-top: 10px;
+            width: 884px;
+            height: 385px;
+            background-color: #fff;
+            border-radius: 12px;
+            padding-top: 41px;
+            display: flex;
+            overflow-x: hidden;
+            .box-note{
+              width: 310px;
+              height: 300px;
+              // background-color: #FFF4BA;
+              margin-left: 18px;
+              border-radius: 12px;
+              box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;  
+              padding: 20px;  
+              
+              .name-note{
+                display: flex;
+                justify-content: space-between;
+                p{
+                  margin-top: 6px;
+                  font-weight: bolder;
+                }
+              }  
+              .content-text{
+                font-size: 10px;
+                font-weight: bold;
+                margin-top: 5px;
+              }   
+              .date{
+                margin-top: 102px;
+                margin-left: 5px;
+                font-size: 10px;
+                color: #949494;
+              }
+              input{
+                margin-left: 249px;
+                margin-top: 61px;
+           
+
+              }
+              }
+              .yellow{
+                background-color: #FFF4BA;
+              }
+              .green{
+                background-color: #6BE83F;
+              }
+          }
+        }
+        .right-note{
+          width: 402px;
+          height:450px ;
+          background-color: #FFF4BA;
+          border-radius: 12px;
+          margin-left: 10px;
+          // padding: 20px;
+          label{
+            font-size: 25px;
+            font-weight: bold;
+     position: relative;
+     top: 20px;
+     left: 20px;
+    
+            color: #888888;
+          }
+          img{
+            margin-left: 309px;
+            margin-top: -20px;
+           
+          }
+        }
+      }
+
+}
