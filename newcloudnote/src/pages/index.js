@@ -1,7 +1,9 @@
 export default function Index() {
     return(
         <>
-        <p>vdsdvs</p>
+        <div className="content-cloud">
+            
+        </div>
         </>
     )
 }
